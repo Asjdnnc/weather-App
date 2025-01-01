@@ -1,0 +1,13 @@
+.cardDiv{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.cardContent{
+    display: flex;
+    justify-content: flex-right;
+    color: red;
+}
