@@ -21,10 +21,10 @@ export default function InfoBox({weatherInfo}){
             rainyurl:weatherInfo.temp>15?hoturl:coldurl}
         title="weather"
       />
-      <CardContent>
+      <CardContent className="cardContent">
         <Typography gutterBottom variant="h5" component="div">
             {weatherInfo.city}&nbsp;
-        {weatherInfo.humidity>85?<ThunderstormIcon/>:weatherInfo.temp>15?<WbSunnyIcon/>:<AcUnitIcon/>}
+        {weatherInfo.humidity>85?<ThunderstormIcon className="weather-icon"/>:weatherInfo.temp>15?<WbSunnyIcon className="weather-icon"/>:<AcUnitIcon className="weather-icon"/>}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component="span">
           <p>Temperature : {weatherInfo.temp}&deg; C</p>

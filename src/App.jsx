@@ -1,5 +1,6 @@
 import InfoBox from "./InfoBox"
 import Search from "./Search"
+import "./App.css"
 import { useState } from "react";
 function App() {
   const [weatherInfo,setweatherInfo] = useState({

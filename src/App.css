@@ -1,0 +1,26 @@
+/* App.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #f5f7fa);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Center the main container */
+  h3, h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Search Section */
+  .search {
+    padding: 1.4px auto;
+  }
+  

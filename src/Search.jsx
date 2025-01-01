@@ -46,7 +46,7 @@ export default function Search({updateWeather}){
     let URL2 = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=b60bf9061e1d9b37c212a09026f25c79`;
     return (
         <div className="search">
-            <h3>Search for Weather</h3>
+            <h1>Search for Weather</h1>
             <form onSubmit={handleSubmit}>
             <TextField id="outlined-basic" label="City" variant="outlined" value={city} onChange={inputChange} required/>
             <br/><br/>

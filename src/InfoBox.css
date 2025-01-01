@@ -1,13 +1,82 @@
-.cardDiv{
-    text-align: center;
-    margin-top: 50px;
-}
-.card{
+.cardDiv {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f0f8ff, #e0f7fa);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
 }
-.cardContent{
-    display: flex;
-    justify-content: flex-right;
-    color: red;
+
+.card {
+    max-width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.card p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.cardContent {
+    padding: 20px;
+}
+
+.cardContent p {
+    margin-bottom: 10px;
+}
+
+.weather-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    color: #ffb400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cardDiv {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card h5 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
 }
