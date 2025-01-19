@@ -11,9 +11,9 @@ This project is a simple weather application that allows users to get current we
 ## Technologies Used
 
 - React
-- JavaScript (89.8%)
-- CSS (9.1%)
-- HTML (1.1%)
+- JavaScript
+- CSS
+- HTML
 
 ## Installation
 
